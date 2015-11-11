@@ -17,7 +17,7 @@ slides:
 	mkdir -p $(BUILD_DIR)
 	cp res/template.html $(BUILD_DIR)/index.html
 	sed -i -e "s/<? TITLE ?>/$(TITLE)/g" $(BUILD_DIR)/index.html
-	sed -i -e "/<? CONTENT ?>/{r readme.md" -e "d}" $(BUILD_DIR)/index.html
+	sed -i -e "/<? CONTENT ?>/{r README.md" -e "d}" $(BUILD_DIR)/index.html
 	cp -r res/ img/ $(BUILD_DIR)
 
 publish:
