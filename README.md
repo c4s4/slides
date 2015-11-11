@@ -22,7 +22,7 @@ The makefile provides following targets:
 - *clean* to delete files generated in *build* directory.
 - *publish* to publish slides using *rsync*.
 
-You can open generated slides in your favorite browser in *build* directory.
+You can open generated slides in your favorite browser in *build* directory. You can view these slides in your browser [at this location](http://sweetohm.net/slides/slides).
 
 ---
 Sample slides
