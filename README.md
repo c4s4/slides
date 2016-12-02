@@ -68,18 +68,18 @@ Tables
 You can render a table with following syntax:
 
 ```md
-First column | Second column | Third column
-:----------- | ------------- | ---------------:
-left aligned | centered      | right aligned
-second line  | second line   | second line
+First column | Second column | Third column    | Fourth column
+:----------- | :-----------: | --------------: | -------------
+left aligned | centered      | right aligned   | default
+second line  | second line   | second line     | second line
 ```
 
 This will be rendered as:
 
-First column | Second column | Third column
-:----------- | ------------- | ---------------:
-left aligned | centered      | right aligned
-second line  | second line   | second line
+First column | Second column | Third column    | Fourth column
+:----------- | :-----------: | --------------: | -------------
+left aligned | centered      | right aligned   | default
+second line  | second line   | second line     | second line
 
 ---
 Tips

@@ -26,10 +26,15 @@ publish:
 	@echo "$(YELLOW)Publishing slides$(CLEAR)"
 	rsync -av $(BUILD_DIR)/ $(DESTINATION)/
 
+release:
+	@echo "$(YELLOW)Releasing slides$(CLEAR)"
+	release
+
 help:
 	@echo "$(YELLOW)This makefile has following targets:$(CLEAR)"
 	@echo "$(CYAN)help$(CLEAR)    To print this help page"
 	@echo "$(CYAN)slides$(CLEAR)  To generate slides in $(BUILD_DIR) directory"
 	@echo "$(CYAN)publish$(CLEAR) To publish slides with rsync"
+	@echo "$(CYAN)release$(CLEAR) To release slides"
 	@echo "$(CYAN)clean$(CLEAR)   To clean generated files in $(BUILD_DIR) directory"
 
