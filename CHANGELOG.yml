@@ -1,3 +1,7 @@
+- version: 1.2.0
+  date:    2017-09-04
+  summary: "Replaced Makfile with NeON build file"
+
 - version: 1.1.1
   date:    2016-12-02
   summary: "Fixed centered column in table example"
