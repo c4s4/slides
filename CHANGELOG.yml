@@ -1,3 +1,7 @@
+- version: 1.2.1
+  date:    2019-03-18
+  summary: "Updated to latest remarkjs release"
+
 - version: 1.2.0
   date:    2017-09-04
   summary: "Replaced Makfile with NeON build file"
