@@ -1,3 +1,9 @@
+# NeON Build File (http://github.com/c4s4/neon)
+
+- version: 1.2.2
+  date:    2019-05-09
+  summary: "Using dash for headers"
+
 - version: 1.2.1
   date:    2019-03-18
   summary: "Updated to latest remarkjs release"
