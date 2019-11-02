@@ -1,6 +1,6 @@
 # NeON build file (http://github.com/c4s4/neon)
 
-extends: [slides, git-master, changelog]
+extends: [slides, git-master]
 
 properties:
   TITLE:   'Slides'
